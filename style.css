@@ -129,9 +129,7 @@ h2{
 }
 .main-score{
     color: hsl(224, 30%, 27%);
-}
-.overall-score{
-    color: hsl(228, 4%, 73%)
+    font-size: 14px;
 }
 button{
     padding: 10px;
@@ -139,4 +137,7 @@ button{
     border-radius: 1.5rem;
     color: #fff;
     border: none;
+}
+.overall-score{
+    color: hsl(228, 4%, 73%)
 }
