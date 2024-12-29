@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: "hanken grotesk", serif;
+}
+.box{
+    display: flex;
+    width: 520px;
+    height: 370px;
+    border: none;
+    border-radius: 1rem;
+}
+.box1{
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    width: 260px;
+    border-radius: 1rem;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.result{
+    font-weight: light;
+    color: hsl(228, 4%, 73%);
+}
+.circle{
+    background-color: blue;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(rgb(82, 44, 185),hsl(241, 81%, 54%) );
+}
+.score{
+    color: #fff;
+    font-weight: 600;
+    font-size: 52px;
+    text-align: center;
+    align-items: center;
+}
+.footer{
+    font-size: 14px;
+    color: hsl(228, 4%, 73%);
+}
+h2{
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.box2{
+    background-color: #fff;
+    box-shadow: 5px 5px 10px hsl(240, 62%, 90%);
+    width: 260px;
+    border-radius: 1rem;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.list1 {
+    background-color: hsl(0, 100%, 67%, 0.1);
+    display: flex;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 0.5rem;
+    font-size: 14px;
+    font-weight: 700;
+}
+.list2 {
+    background-color: hsl(39, 100%, 56%, 0.1);
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    border-radius: 0.5rem;
+    font-size: 14px;
+    font-weight: 700;
+}
+.list3 {
+    background-color: hsl(166, 100%, 37%, 0.1);
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    border-radius: 0.5rem;
+    font-size: 14px;
+    font-weight: 700;
+}
+.list4 {
+    background-color: hsl(234, 85%, 45%, 0.1);
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    border-radius: 0.5rem;
+    font-size: 14px;
+    font-weight: 700;
+}
+.list1 p{
+    width: 110px;
+    color: hsl(0, 100%, 67%);
+    padding-left: 10px;
+}
+.list2 p{
+    width: 110px;
+    padding-left: 10px;
+    color: hsl(39, 100%, 56%);
+}
+.list3 p{
+    width: 110px;
+    padding-left: 10px;
+    color: hsl(166, 100%, 37%);
+}
+.list4 p{
+    width: 110px;
+    padding-left: 10px;
+    color:  hsl(234, 85%, 45%);
+}
+.main-score{
+    color: hsl(224, 30%, 27%);
+    font-size: 14px;
+}
+button{
+    padding: 10px;
+    background-color:hsl(224, 30%, 27%) ;
+    border-radius: 1.5rem;
+    color: #fff;
+    border: none;
+}
+.overall-score{
+    color: hsl(228, 4%, 73%)
+}
